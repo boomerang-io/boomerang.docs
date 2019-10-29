@@ -51,6 +51,8 @@ helm install --namespace <namespace> boomerang-charts/bmrg-bosun
 
 Policy Definitions and Rules get combined together into a Policy which the Metrics is then validated against.
 
+There is tight coupling between the three objects. Definition requires to know about the Metric data. Rules need to know about the Definition.
+
 ## Integrations
 
 Bosun can be used in two ways, generically or pre-integrated with repositories of quality data. When validating generically the Metrics Data is a part of the body of the payload going to Bosun. When validating via pre-integrated data repositories you use labels to pass in any required information.
