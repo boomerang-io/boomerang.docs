@@ -27,5 +27,14 @@ helm install --namespace <namespace> boomerang-charts/bmrg-bosun
 
 ## Data Model
 
+![Data](../assets/bosun-data.png)
+
+Bosun utilizes three types of data
+
+1. Policy Definition - The definition written in rego for Open Policy Agent
+2. Policy Rules - Rules applicable to the definition
+3. Metrics - the data to be validated
+
+(1) and (2) get combined together into a Policy which the Metrics is then validated against.
 
 ## APIs

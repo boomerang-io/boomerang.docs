@@ -6,7 +6,7 @@ Boomerang is a collection of open source projects focussed on cloud native devel
 
 Visit our individual projects to learn more.
 
-- [Bosun](./content/bosun.md)
+- [Bosun](./content/bosun.md) - policy based gating
 
 ## License
 
