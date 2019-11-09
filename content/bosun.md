@@ -40,15 +40,6 @@ metadata to pass in required information to the validation system.
 
 metadata that can be stored and displayed with a validation activity. This could be to add related identifiable information such as the CI pipeline or CI component that the validation is about.
 
-## Getting Started
-
-To quickly get started with Bosun, install into a kubernetes cluster of 1.13+ via Helm using the following commands
-
-```
-helm repo add boomerang-charts https://xyz
-helm install --namespace <namespace> boomerang-charts/bmrg-bosun
-```
-
 ## Architecture
 
 ![Architecture](../assets/bosun-architecture.png)
