@@ -1,6 +1,6 @@
 # Bosun
 
-Bosun, by Boomerang, is a policy based gating system that combines [Open Policy Agent (OPA)](https://openpolicyagent.org/) definitions with Rules and Metrics Data to validate if specific Gates are passed.
+Bosun, by Boomerang, is a policy based gating system that combines [Open Policy Agent (OPA)](https://openpolicyagent.org/) definitions with Rules and Data to validate if specific Gates are passed.
 
 We currently focus on two use cases:
 1. CICD Gates
@@ -16,7 +16,11 @@ All packaged up in containers and easily installed with a [Helm](https://helm.sh
 
 There are a number of concepts to understand when using Bosun and they will be mentioned in detail throughout the documentation. Here are a few of the important ones:
 
-**Policy Definitions**
+**Policy Template**
+
+the template structure that defines the Policy Rego and Policy Rules. Templates are then used to create Policies. 
+
+**Policy Rego**
 
 the definition written in rego for OPA
 
@@ -24,13 +28,17 @@ the definition written in rego for OPA
 
 rules, in a domain specific lanauge, applicable to the definition
 
-**Metrics**
+**Data**
 
-the data to be validated
+the data or metrics to be validated
 
 **Labels** 
 
-serve two purposes - as metadata that can be stored and displayed with a validation activitiy to help easily identify the related entity, and also as a way to pass in required information to the validation system.
+metadata to pass in required information to the validation system.
+
+**Annotations**
+
+metadata that can be stored and displayed with a validation activity. This could be to add related identifiable information such as the CI pipeline or CI component that the validation is about.
 
 ## Getting Started
 
@@ -49,9 +57,9 @@ helm install --namespace <namespace> boomerang-charts/bmrg-bosun
 
 ![Data](../assets/bosun-data.png)
 
-Policy Definitions and Rules get combined together into a Policy which the Metrics is then validated against.
+Policy Templates (with Rego and Rule Templates) get combined with the user defined rules into a Policy which the Metrics is then validated against.
 
-There is tight coupling between the three objects. Definition requires to know about the Metric data. Rules need to know about the Definition.
+There is tight coupling between the three objects. Templates requires to know about the Metric data. Rules need to know about the Rego.
 
 ## Integrations
 
