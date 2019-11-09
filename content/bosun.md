@@ -12,6 +12,10 @@ We also have pre built integrations to retrieve metrics with
 
 All packaged up in containers and easily installed with a [Helm](https://helm.sh/) chart.
 
+## Getting Started
+
+To get started, head to [Getting Started with Bosun](./bosun-getting-started.md)
+
 ## Concepts
 
 There are a number of concepts to understand when using Bosun and they will be mentioned in detail throughout the documentation. Here are a few of the important ones:
@@ -39,10 +43,6 @@ metadata to pass in required information to the validation system.
 **Annotations**
 
 metadata that can be stored and displayed with a validation activity. This could be to add related identifiable information such as the CI pipeline or CI component that the validation is about.
-
-## Getting Started
-
-To get started, head to [Getting Started with Bosun](./bosun-getting-started.md)
 
 ## Architecture
 
