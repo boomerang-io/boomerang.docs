@@ -44,7 +44,7 @@ Create, view and manage task templates used in workflows.
 
 ## Architecture
 
-![Architecture](./assets/img/Boomerang-Flow-Architecture.png)
+![Architecture](../assets/Boomerang-Flow-Architecture.png)
 
 The Boomerang Flow application has the following main components
 
@@ -59,7 +59,7 @@ Standard tasks are pre built tasks designed for a no code experience in Flow. Th
 
 ### Custom Tasks
 
-![Architecture](./assets/img/Boomerang-Flow-Architecture-CustomTask.png)
+![Architecture](../assets/Boomerang-Flow-Architecture-CustomTask.png)
 
 The custom task is a slightly different implementation than the standard tasks that come out of the box with Flow. Where as the standard tasks have deep integration to the Flow and Controller services, the custom task has no knowledge or understanding of this, nor do we want to force teams to adhere to a specific implementation.
 
