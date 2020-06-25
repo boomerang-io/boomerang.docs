@@ -1,12 +1,12 @@
 # ![logo](./assets/favicon.png) Boomerang
 
-Boomerang is a collection of open source projects focussed on cloud native development and automation.
+Boomerang is a collection of open source projects focussed on cloud-native development and automation.
 
 ## Projects
 
 Visit our individual projects to learn more.
 
-- [Bosun](./content/bosun.md) - policy based gating
+- [Bosun](./content/bosun.md) - policy-based gating
 - [Flow](./content/flow.md) - workflow automation
 
 ## License
