@@ -1,6 +1,6 @@
 # ![logo](./assets/favicon.png) Boomerang
 
-Boomerang is a collection of open source projects focussed on cloud-native development and automation.
+Boomerang is a collection of open source projects focused on cloud-native development and automation.
 
 ## Projects
 
