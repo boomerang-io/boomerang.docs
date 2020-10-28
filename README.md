@@ -9,6 +9,10 @@ Visit our individual projects to learn more.
 - [Bosun](./content/bosun.md) - policy-based gating
 - [Flow](./content/flow.md) - workflow automation
 
+## Docs
+
+View complete documentation on [useboomerang.io/docs](https://www.useboomerang.io/docs)
+
 ## License
 
 All of our work is licenses under the [Apache License Version 2.0](LICENSE) unless specified otherwise due to constraints by dependencies.
